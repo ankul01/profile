@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <main style="max-width: 720px; margin: 60px auto; line-height: 1.6;">
+    {{ block "main" . }}{{ end }}
+  </main>
+</body>
+</html>

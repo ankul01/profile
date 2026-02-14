@@ -1,0 +1,6 @@
+baseURL = "https://ankul01.github.io/profile/"
+languageCode = "en-us"
+title = "Ankul Choudhry"
+
+relativeURLs = true
+canonifyURLs = false
