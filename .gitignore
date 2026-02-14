@@ -1,4 +1,4 @@
-# Hugo build output
+# Hugo default build output (we use docs/ instead)
 public/
 resources/_gen/
 
