@@ -1,81 +1,10 @@
 /* ==========================================================================
-   Custom Typography — Inter + Source Serif 4
-   Inter: clean, professional sans-serif for body text
-   Source Serif 4: elegant serif for headings (editorial authority)
+   Custom Styles
+   Uses PaperMod's default system font stack (same as domainforvijay.in)
    ========================================================================== */
-
-/* Body font — Inter */
-body {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-        Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
-    font-size: 17px;
-    line-height: 1.7;
-    letter-spacing: -0.011em;
-    font-feature-settings: 'liga' 1, 'calt' 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-/* Headings — Source Serif 4 */
-h1, h2, h3, h4, h5, h6,
-.post-title,
-.entry-header h2,
-.home-info .entry-header h1 {
-    font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-    line-height: 1.3;
-}
-
-/* Slightly lighter weight for h3–h6 */
-h3, h4, h5, h6 {
-    font-weight: 600;
-}
-
-/* Site title in header */
-.logo a {
-    font-family: 'Source Serif 4', Georgia, serif;
-    font-weight: 700;
-    letter-spacing: -0.02em;
-}
-
-/* Navigation */
-#menu a {
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    letter-spacing: 0.01em;
-}
-
-/* Post meta (date, reading time) */
-.post-meta {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    letter-spacing: 0.01em;
-}
-
-/* Post content */
-.post-content {
-    font-size: 17px;
-    line-height: 1.75;
-}
-
-/* Post summary in list view */
-.entry-content {
-    font-size: 15px;
-    line-height: 1.65;
-}
-
-/* Home info section */
-.home-info .entry-content p {
-    font-size: 17px;
-    line-height: 1.75;
-}
 
 /* Footer */
 .footer {
-    font-family: 'Inter', sans-serif;
     font-size: 14px;
     text-align: center;
 }
@@ -112,9 +41,4 @@ h3, h4, h5, h6 {
 
 .footer-social-icons a:hover svg {
     stroke: var(--primary);
-}
-
-/* Code blocks keep monospace */
-code, pre, .highlight {
-    font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Menlo, Consolas, monospace;
 }
