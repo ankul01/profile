@@ -50,18 +50,6 @@ Passionate about leading teams that build **mission-critical, high-throughput sy
 I write about system design, platform architecture, and engineering leadership. My latest post dives into [**Designing an Embedded Insurance Platform**](/profile/posts/tech-blogs/embedded-insurance/) — a comprehensive architecture blueprint covering product engines, issuance pipelines, double-entry ledgering, and regulatory reporting. Built for EMs and Staff Engineers working in insurtech and fintech.
 """
 
-  [[params.socialIcons]]
-    name = "linkedin"
-    url = "https://www.linkedin.com/in/ankul-choudhry"
-
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:ankulnitt@gmail.com"
-
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/ankul01"
-
   [params.cover]
     hidden = true
     hiddenInList = true
