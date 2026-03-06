@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Architecture on Ankul Choudhry</title>
+    <link>https://ankul01.github.io/profile/tags/architecture/</link>
+    <description>Recent content in Architecture on Ankul Choudhry</description>
+    <generator>Hugo -- 0.155.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ankul01.github.io/profile/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Designing an Embedded Insurance Platform</title>
+      <link>https://ankul01.github.io/profile/posts/tech-blogs/embedded-insurance/</link>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>https://ankul01.github.io/profile/posts/tech-blogs/embedded-insurance/</guid>
+      <description>Architecture blueprint for EMs and Staff Engineers building embedded insurance platforms — product engines, policy issuance, financial ledgers, claims workflows, and IRDAI-ready reporting.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,126 @@
+/* ==========================================================================
+   Typography — Roboto Mono (matching domainforvijay.in)
+   ========================================================================== */
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+}
+
+h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+.logo a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+}
+
+#menu a {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+}
+
+.post-meta {
+    font-weight: 300;
+}
+
+code, pre, .highlight {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* ==========================================================================
+   Heading sizes — reduced from PaperMod defaults (title -40%, rest scaled)
+   ========================================================================== */
+
+/* Page title (post pages and list pages) */
+.post-title,
+.page-header h1 {
+    font-size: 24px;
+}
+
+/* Content headings inside posts and pages */
+.post-content h1 {
+    font-size: 24px;
+    margin: 32px auto 20px;
+}
+
+.post-content h2 {
+    font-size: 20px;
+    margin: 28px auto 16px;
+}
+
+.post-content h3 {
+    font-size: 17px;
+}
+
+.post-content h4 {
+    font-size: 15px;
+}
+
+.post-content h5 {
+    font-size: 14px;
+}
+
+.post-content h6 {
+    font-size: 13px;
+}
+
+/* Post description / subtitle */
+.post-description {
+    font-size: 14px;
+}
+
+/* Entry heading in post lists (home, posts page) */
+.entry-header h2 {
+    font-size: 20px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.footer {
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+}
+
+.footer-social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 6px;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.footer-social-icons a:hover {
+    opacity: 0.7;
+    transform: translateY(-1px);
+}
+
+.footer-social-icons a svg {
+    width: 22px;
+    height: 22px;
+    stroke: var(--secondary);
+    transition: stroke 0.2s ease;
+}
+
+.footer-social-icons a:hover svg {
+    stroke: var(--primary);
+}
