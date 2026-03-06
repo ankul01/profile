@@ -6,11 +6,11 @@ export default function Footer() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="flex gap-6 text-sm text-gray-600">
-            <Link href="https://ankul.co.in" className="hover:text-gray-900">
+            <Link href="https://ankul01.github.io/profile/" className="hover:text-gray-900">
               Home
             </Link>
             <Link
-              href="https://ankul.co.in/engineering-with-intent/"
+              href="https://ankul01.github.io/leadership-learning/"
               className="hover:text-gray-900"
             >
               Engineering with Intent
