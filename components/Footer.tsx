@@ -10,7 +10,7 @@ export default function Footer() {
               Home
             </Link>
             <Link
-              href="https://ankul01.github.io/leadership-learning/"
+              href="https://ankul01.github.io/engineering-with-intent/"
               className="hover:text-gray-900"
             >
               Engineering with Intent
