@@ -49,29 +49,6 @@ export default function HomePage() {
         </Link>
       </section>
 
-      <section className="mb-12">
-        <h2 className="text-lg font-semibold text-gray-900 mb-4">
-          Latest Posts
-        </h2>
-        <ul className="space-y-3">
-          <li>
-            <Link
-              href="/posts/embedded-insurance"
-              className="text-blue-600 hover:underline"
-            >
-              Designing an Embedded Insurance Platform
-            </Link>
-            <span className="text-gray-500 text-sm ml-2">— Feb 2026</span>
-          </li>
-        </ul>
-        <Link
-          href="/posts"
-          className="inline-block mt-4 text-sm text-gray-600 hover:text-gray-900"
-        >
-          View all posts →
-        </Link>
-      </section>
-
       <section>
         <h2 className="text-lg font-semibold text-gray-900 mb-4">Connect</h2>
         <div className="flex gap-6 text-sm">
