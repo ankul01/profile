@@ -20,7 +20,7 @@ export default function HomePage() {
 
       <section className="grid md:grid-cols-2 gap-6 mb-12">
         <Link
-          href="https://ankul01.github.io/engineering-with-intent/"
+          href="https://engineering.ankul.co.in"
           className="block p-6 border border-gray-200 rounded-lg hover:border-blue-500 hover:shadow-sm transition-all group"
         >
           <h2 className="text-xl font-semibold text-gray-900 mb-2 group-hover:text-blue-600">
